@@ -1,0 +1,194 @@
+/*
+Author: Simon Still
+Date: 9/25/2024
+*/
+
+/* CSS Reset */
+body, header, nav, footer, main, h1, h2, h3, h4, h5, h6, div, img, ul, hr, a, p{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/*Styles for Home Page*/
+    #skibidi img{
+        margin: 10px;
+        border: 3px solid black;
+        border-radius: 3%;
+        box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.7);
+    }
+
+    .homies{
+        transition: transform .2s;
+        width: auto;
+        height: auto;
+    }
+
+    .homies:hover{
+        transform: scale(1.25);
+    }
+
+/*Styles for About Me Page*/
+    .aboutme-lowpad{
+        padding-bottom: 3%;
+    }
+
+    .aboutme-highpad{
+        padding-top: 3%;
+    }
+
+    .aboutme-p{
+        padding-top: 3px;
+        padding-bottom: 8px;
+        font-size: 1.25em;
+        font-weight: bold;
+    }
+
+/*Styles for Electives Page*/
+    .band{
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    .band-header{
+        font-size: 2em;
+    }
+    
+    .songs{
+        font-size: 1.25em;
+        font-weight: bold;
+    }
+    
+    .img-fluid{
+        width: 25%;
+        height: 25%;
+        padding-top: 0.5em;
+        padding-bottom: 1em;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+/*Styles for Projects Page*/
+    .project-heading{ 
+        padding-top: .5%;
+        padding-bottom: 1%;
+    }
+
+/*Styles for Tutorials Page*/
+    .tutorials-highpad{
+        padding-top: .5%;
+    }
+    
+    .rubiks{
+        border: 2px solid black ;
+        border-radius: 5%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+/*Classes and Ids Used for ALL Pages*/
+    #navbar{
+        transition: transform .2s;
+    }
+    
+    #navbar a{
+        width: 5px;
+        height: 5px;
+        color: #fff;
+    }
+
+    
+    .html ul{
+        list-style-type: none;
+    }
+
+    .html{
+        float: left;
+        padding-left: 10%;
+        padding-right: 7.5%;
+        margin-top: 1%;
+    } 
+    
+    .hobbies{
+        border: 3px solid black;
+        border-radius: 5%;
+    }
+
+/*Pseudo Class*/
+    a:visited{
+        color: #000;
+    }
+
+    a:link{
+        color: #111;
+    }
+
+    a:hover{
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+
+/*Styling Used for ALL Classes*/
+    header{
+        text-align: center;
+        padding-top: 0%;
+        background-color: #000;
+    }
+
+    hr{
+        border: 1px solid white;
+    }
+    
+    nav{
+        border-style: solid;
+        border-color: black;
+        border-top-width: 3px;
+        border-bottom-width: 3px;
+        font-weight: bold;
+    }
+    
+    nav p{
+        transition: transform .2s;
+        width: auto;
+        height: auto;
+    }
+
+    nav p:hover{
+        transform: scale(1.2);
+    }
+
+    body{
+        background: linear-gradient(to top right, #7f02fc 60%, #d7c5eb);
+        color: #fff;
+        font-family: "Barlow", Georgia, Arial;
+    }
+    
+    main{
+        text-align: center;
+    }
+    
+    p{
+        text-align: center;
+        padding-top: none;
+    }
+    
+    h1{
+        font-size: 3em;
+        font-family: fantasy, Georgia, Arial !important;
+        padding-bottom: .5%;
+        padding-top: .5%;
+    }
+    
+    h2{
+        padding-bottom: .5%;
+        padding-top: .5%;
+    }
+    
+    footer{
+        clear: both;
+        padding-top: 5%;
+    }
+    
+    
